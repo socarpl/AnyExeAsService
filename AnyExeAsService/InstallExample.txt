@@ -1,0 +1,10 @@
+﻿ sc create servicename 
+binPath= "C:\path\AnyExeAsService.exe" 
+DisplayName= "Display name of AnyExeAsService" 
+start= auto 
+
+Installation
+1. Modify AnyExeAsService.exe.config settings file to update what app should be run as service
+2. Use install script above in admin CMD console
+3. STart service with services.msc 
+4. Remember that if not installed othwerise the profile for the service will be with system. so not in C:\Users folder
